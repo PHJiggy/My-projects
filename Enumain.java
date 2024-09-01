@@ -144,4 +144,5 @@ public class Enumain {
 //I used ordinal(): System.out.println((EnumMonth.JANUARY.ordinal()+ 1) + ". JANUARY"); to print the index/location of the enum.
 //I used valuesOf(): EnumMonth Answer = EnumMonth.valueOf("DECEMBER"); to get the string value into the enum list.
 //I used compareTo():  System.out.println("Month remaining before Christmas: "+Christmas.compareTo(Now)); to compare how long the compared value
-//
+// Why enum is advantage? 
+// Better readability in code also ensures type safety to avoid errors; if code isn't readable, you might become confused, leading to many errors and difficulties in maintenance.
