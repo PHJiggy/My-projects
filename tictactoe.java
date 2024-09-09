@@ -1,4 +1,4 @@
-//I STARTED TO MAKE THIS JULY 24 AND FINISHED JULY 28 TY GOD.
+//I STARTED TO MAKE THIS JULY 24 AND FINISHED SEPT 9 Cuz I stop developing this, it was july 28 because of COMPUTER Method bug. TY GOD I finally fixed it!.
 
 
 import java.util.Random;
