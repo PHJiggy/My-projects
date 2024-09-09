@@ -1,6 +1,8 @@
-//ALBEOS
-import java.util.Scanner;
+//I STARTED TO MAKE THIS JULY 24 AND FINISHED JULY 28 TY GOD.
+
+
 import java.util.Random;
+import java.util.Scanner;
 
 public class tictactoe{
 
@@ -9,7 +11,11 @@ public class tictactoe{
         int number;
         
         do {
-            number = rand.nextInt(9);
+            number = rand.nextInt(8);
+            if(blank[0] != ' ' && blank[1] != ' ' && blank[2] != ' ' && blank[3] != ' ' && blank[4] != ' ' && blank[5] != ' ' && blank[6] != ' ' && blank[7] != ' ' && blank[8] != ' ') {
+                break;
+            }
+            
         } while (blank[number] != ' ');
 
         blank[number] = computer;
@@ -94,6 +100,11 @@ public static void main(String[] args)
             System.out.print("===============\n");
             playing = false;
         }
+        }else{
+        System.out.print("\033[H\033[2J");
+        TABLE(blank);
+        System.out.print("DRAW!");
+        playing = false;
         }
         
     
