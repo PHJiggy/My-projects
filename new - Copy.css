@@ -1,0 +1,165 @@
+body{
+	background-image: url("photos/night.jpg");
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+
+  
+}
+
+#about{
+  margin-top: 52%;
+}
+
+.navagator{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  background-color: #9c87bc;
+  border-radius: 25px;
+  width: 60%;
+  align-content: center;
+  margin-left: 21%;
+
+}
+
+.navagator a{
+  text-decoration: none;
+  display: flexbox;
+  word-spacing: 50%;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.navagator a:hover{
+      color: #323034;
+      transition: 0.2s;
+      opacity: 0.1;
+      
+}
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  margin: 0;
+  padding: 25px 0;
+  text-align: center;
+  width: 100%;
+  background-color: #24272B;
+  color: white;
+  
+}
+
+
+.name{
+    margin-top: 10%;
+    border-radius: 6px;
+    width: "500";
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.ilike{
+  
+    margin-top: 10%;
+	  color: white;
+    background-color:  #24272B;
+    border-radius: 6px; 
+    text-align: center;
+    width: 50%;
+    margin-left: 28%;
+}
+
+
+.iring{
+  color: red;
+  text-align: center; 
+}
+
+.iring img{
+  margin-top: 20%;
+  border: 1px solid #6e387f;
+  border-radius: 60px;
+  transition: 1s;
+}
+
+.iring img:hover{
+  border: 1px solid blue;
+  opacity: 0.8;
+  transform: rotate(5deg);
+}
+
+.iring a{
+  color: #f0f2f6;
+}
+
+.iring p{
+  margin-bottom: 35%;
+}
+
+.Educational{
+    padding-top: 25%;
+    text-align: center;
+    background-color: #5e3280;
+    border: 1px solid #6e387f;
+    border-radius: 60px; 
+    color: #e6d0f1;
+}
+
+
+
+
+
+
+
+
+table, th,td{
+  margin-top: 5%;
+  border: 10px solid black;
+  border-collapse: collapse;
+  
+}
+
+table{
+  margin-left: auto;
+    margin-right: auto;
+  width: 100%;
+  background-color: #ded6eb;
+  margin-bottom: 20%;
+}
+
+table th{
+  background-color: #9c87bc ;
+}
+
+footer{
+  color: aliceblue;
+  text-align: center;
+}
+
+footer .fb{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(144, 200, 255);
+    transition: 0.5s;
+    border-radius: 25px;
+}
+
+footer .fb:hover{
+    border-color: rgb(144, 200, 255);
+    opacity: 1p;
+    width: 80%;
+    border-radius: 25px;
+}
